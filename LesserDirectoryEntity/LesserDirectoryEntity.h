@@ -22,12 +22,13 @@ public:
 
     void Fill();
 
-    void Delete(string arg);
+    bool Delete(string arg);
 
     void Copy(string arg);
 
     void CopyRollback();
 
     LesserDirectoryEntity();
+
     ~LesserDirectoryEntity();
 };
